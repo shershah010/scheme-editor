@@ -1,0 +1,84 @@
+﻿.root {
+	-fx-min-width: 600px;
+	-fx-min-height: 600px;
+}
+.text-area .content{
+}
+.text-area{
+	-fx-font-size: 20px;
+	-fx-min-width: 590px;
+	-fx-min-height: 490px;
+}
+.tab-pane{
+	-fx-min-width: 600px;
+	-fx-min-height: 550px;
+	-fx-max-tab-height: 30px;
+	-fx-background-color: white;
+	-fx-font-weight: 400;
+}
+.menu-button{
+
+}
+
+.menu-button .label{
+	-fx-background-color: white;
+}
+.menu-button:hover .label{
+	-fx-background-color: white;
+}
+
+.menu-item {
+	-fx-background-color: white;
+}
+.menu-item .label{
+	-fx-text-fill: black;
+}
+.menu-item:hover{
+	-fx-background-color: white;
+	
+}
+.menu-item:hover .label{
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+}
+.menu-button > .arrow-button {
+    -fx-padding: 0;
+}
+
+.menu-button > .arrow-button > .arrow {
+    -fx-padding: 0;
+}
+.vbox{
+	-fx-background-color: white;
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab{
+    -fx-background-inserts: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+	-fx-background-color: gray;
+
+}
+.tab-pane .tab:hover{
+	-fx-background-color: lightgrey;
+}
+.tab-pane .tab:selected
+{
+	-fx-background-color: white;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}

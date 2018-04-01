@@ -1,0 +1,7 @@
+﻿.text-field{
+	-fx-border-radius: 0px;
+	-fx-background-color: white;
+	-fx-border-color: black;
+	-fx-border-width: 1px;
+	-fx-padding: 2px;
+}
